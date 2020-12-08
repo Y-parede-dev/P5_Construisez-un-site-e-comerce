@@ -1,0 +1,56 @@
+#content-produit {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:  1fr .01fr .01fr .01fr .01fr;
+}
+.img-produit-page {
+    max-width: 100%;
+}
+.name-produit {
+    text-align: center;
+}
+.camera-produit{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    margin: 40px auto 90px;
+    flex: 0 0 75% !important;
+    max-width: 75% !important;
+    padding: 0 !important;
+}
+.select-lenses {
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    margin: 10px 0;
+}
+.input-number {
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start:4 ;
+}
+.button-submit {
+    display: grid;
+    grid-row-start: 6;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    margin: auto auto 5rem;
+}
+.price-produit {
+    color: $secondColor;
+    text-align: center;
+    font-size: 1.8rem;
+}
+.description-produit {
+    font-size: 1.2rem;
+}
+.message-status {
+    display: grid;
+    text-align: center;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    padding: 0!important;
+}
+

@@ -1,0 +1,20 @@
+.recap {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 23% auto;
+}.recap>.col{
+    padding: 0;
+    text-align: center;
+}
+.span-recap {
+    font-weight: bolder;
+}
+@media screen and (min-width:0px) and (max-width: 466px){
+    .recap {
+        margin: 50% auto;}
+}
+@media screen and (min-width:466px) and (max-width: 900px){
+    .recap {
+        margin: 33% auto;}
+}

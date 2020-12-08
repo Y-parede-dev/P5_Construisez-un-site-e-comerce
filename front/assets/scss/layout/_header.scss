@@ -1,0 +1,34 @@
+header {
+    color: $secondColor;
+    margin: 0;
+    padding: 5px 15px 10px;
+    max-width: initial !important;
+}
+header > .row {
+    display: grid;
+    grid-template-columns: 1fr auto auto 1fr;
+    align-items: center;
+    justify-content: center;
+}
+header > .row > .col {
+    width: max-content;
+}
+.row > #header-logo {
+    grid-column-start: 2;
+}
+.row > .title-header {
+    font-family: 'Gochi Hand', cursive;
+    margin: auto;
+    font-size: 3.5rem;
+}
+@media screen and (min-width:0px)and(max-width:400px){
+    .svgLogo {
+        display: none;
+    }
+    .title-header {
+        margin: auto;
+    }
+    header > .row {
+        display: block;
+    }
+}

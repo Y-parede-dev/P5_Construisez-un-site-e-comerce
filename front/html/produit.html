@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>page produit</title> <!-- titre non permanent just epour les test -->
+        <meta charset="UTF-8">
+        <meta name="description" content="Orinoco site de vente en ligne nous proposont des caméras vintages, des ours en peluche et des meubles en chêne." />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+        <!-- css -->
+        <link rel="stylesheet" type="text/css" href="../assets/css/style.css" />
+        <!-- jquery -->
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <!-- bootstrap -->
+        <link rel="stylesheet" type="text/css" href="../../back/node_modules/bootstrap/dist/css/bootstrap.min.css" />
+        <script src="../../back/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="../../back/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+    <body>
+        <header class="container container-fluid bg-dark">
+            <div class="row header-content">
+                <div class="col col-md2 svgLogo" id="header-logo">
+                    <svg width="5em" height="5em" viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
+                    </svg>
+                </div>
+                <h1 class="col title-header">Orinoco</h1>
+            </div>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link " href="../index.html">Accueil <span class="sr-only">(current)</span></a>
+                        <a class="nav-link active" id="btn-produit" href="#">Produit <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="./panier.html">Panier</a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <section class="container-fluid container">
+            <div id="content-produit" class="row"></div>
+        </section>
+        <footer class="bg-dark">
+            <p id="footer-content">Copyright <span class="name-footer">Orinoco</span> 2020</p>
+        </footer>
+    </body>
+    <script type="module" src="../assets/js/produit.js" async></script>
+</html>

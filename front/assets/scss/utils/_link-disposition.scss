@@ -1,0 +1,7 @@
+.link-to-menu {
+    color: $firstColor;
+    &:hover {
+        text-decoration: none;
+        color: $firstColor;
+    }   
+}
