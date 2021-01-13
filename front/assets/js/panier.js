@@ -245,8 +245,8 @@ function checkAndPost(){
                 products.push(elt.id)
             })
             // on verifie que les information sont valid(pour les type des attributs on étais crée en amont)
-            if(prenomInput.value.length > 3 &&
-                nomInput.value.length > 3 &&
+            if(prenomInput.value.length >1 &&
+                nomInput.value.length >1 &&
                 adresseInput.value.length > 8 &&
                 villeInput.value.length > 3 &&
                 isValid(adresseMailInput.value)){

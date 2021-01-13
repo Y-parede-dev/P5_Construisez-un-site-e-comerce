@@ -136,7 +136,7 @@ function saveOnLS(element) {
         else if (inputOnProduct.value >= 1 && select.value != choixVide.value){
             messStatus.classList.remove('text-danger');
             messStatus.classList.add('text-success');
-            messStatus.textContent = "vous avez ajouter " + `${inputOnProduct.value}`+ " appareils photo";
+            messStatus.textContent = `vous avez ajouter ${inputOnProduct.value} appareils photo`;
             isValid = true;
         }
         if(select.value == choixVide.value){
